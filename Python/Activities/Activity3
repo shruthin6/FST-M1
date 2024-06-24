@@ -1,0 +1,19 @@
+player1=input("Player1 name:")
+player2=input("player2 name:")
+Answer1=input(player1 + ", do you want to choose rock, paper or scissors? ")
+Answer2=input(player1 + ", do you want to choose rock, paper or scissors? ")
+if Answer1==Answer2:
+    print("it's a tie")
+elif Answer1=='rock' and Answer2=="scissors":
+    print("rock win!")
+
+elif Answer1=='Scissors' and Answer2=="paper":
+    print("paper win!")
+
+elif Answer1=='paper' and Answer2=="rock":
+    print("paper win!")
+else:
+    print("invalid input")
+
+
+    
